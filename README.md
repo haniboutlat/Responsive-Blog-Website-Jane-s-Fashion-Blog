@@ -3,8 +3,6 @@
 
 This project is a fully responsive fashion blog website built using HTML, CSS, and Font Awesome. It demonstrates modern responsive design techniques, including flexible layouts, media queries, and adaptive UI components. The website is designed to provide a clean, stylish, and user-friendly experience across devices, from desktop to mobile.
 
-Project Name: Responsive-Blog
-Role: Full Front-End Developer (focus on responsive design and UI)
 
 ## Features
 
