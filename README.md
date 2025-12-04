@@ -21,14 +21,6 @@ This project is a fully responsive fashion blog website built using HTML, CSS, a
 - Font Awesome – Social media icons and other UI elements.
 - Google Fonts (Oswald) – Custom typography.
 
-## Project Structure
-Responsive-Blog/
-├─ index.html           # Main HTML file
-├─ stylesheets/
-│  └─ style.css         # Main stylesheet
-└─ README.md            # Project description
-
-
 ## Responsive Behavior
 
 - Desktop: Full navbar with links and search bar, hero image visible, blog cards in row layout.
