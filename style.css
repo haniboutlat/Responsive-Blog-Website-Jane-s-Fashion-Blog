@@ -1,0 +1,276 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(191, 191, 191);
+}
+.container{
+    font-size: 1.3em;
+    font-family: 'Oswald', sans-serif;
+    color:white;
+    font-weight: lighter;
+}
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    height: 4vw;
+    align-items: center;
+    font-size: 2vw;
+}
+.fa-bars{
+    display: none !important;
+}
+.navbarrechterkant{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 1%;
+}
+.fa-magnifying-glass{
+    font-size: 1em;
+    margin-right: 5%;
+    position: relative;
+    top:7px;
+}
+.searchbar{
+    font-size: 1em;
+    border-radius: 15px;
+}
+.navbarlinkerkant{
+    display: flex;
+    width: 40%;
+    justify-content: space-evenly;
+    margin-right: 3%;
+}
+.home, .gallery, .themesettings, .portfolio{
+    margin-right: 3%;
+    border-radius: 15px;
+}
+.hover:hover{
+    background-color: rgb(43, 42, 42);
+}
+.hover a{
+    text-decoration: none;
+    color: white;
+}
+.tussenstuk{
+    color: black;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 15vw;
+}
+.oef{
+    font-weight: bold;
+    font-size: 4.5vw;
+}
+.media{
+    color:white;
+    background-color: black;
+}
+#header{
+    background-image: url("https://www.w3schools.com/w3images/jane.jpg");
+    background-size: 100%;
+    aspect-ratio: 160/106;
+    background-color: black;
+    margin: 0 auto;
+    position: relative;
+    width: 100%;
+}
+.tekstbox{
+    font-weight: bold;
+    position: absolute;
+    left: 0;
+    bottom: 5%;
+    color: white;
+    font-size: 2.5em;
+    width: 30%;
+    text-align: center;
+    line-height: 1;
+}
+.subscribe_button{
+    color: black;
+    font-weight: lighter;
+    font-size: 2.5vw;
+    width: 50%;
+    background-color: rgba(121, 119, 117, 0.5);
+    height: 6vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 24%;
+}
+.subscribe_button:hover{
+    background-color: rgba(179, 176, 174, 0.5);
+}
+.name_tekst, .titel_tekst{
+    line-height: 0;
+    text-align: center;
+    font-size: 5vw;   
+}
+.welcome{
+    font-size: 3vw;
+}
+.rijvierkanten{
+    display: flex;
+    margin-bottom:3%;
+}
+.vierkant1, .vierkant2, .vierkant3,.vierkantsocialemedia{
+    background-color: white;
+    margin-right:1%;
+}
+.vierkant1, .vierkant2, .vierkant3 {
+    flex: 1;
+}
+.vierkantsocialemedia{
+    background-color: transparent;
+    text-align: unset;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    color: black;
+    margin-top: 1%;
+}
+.rechthoeksocialemedia{
+    display: none;
+}
+.textblokken{
+    display: flex;
+    width: 75%;
+    margin: 1%;
+    text-align: center;
+}
+.vierkantsocialemedia{
+    width: 25%;
+}
+.heading, .april{
+    color: black;
+    font-size: 1.1em;
+}
+.april{
+    color: grey;
+}
+
+.rijvierkanten img{
+    width: 94%;
+    margin:1% 2% 1% 2%;
+}
+.rijvierkanten p{
+    font-size: 1.8vw;
+}
+.vierkantsocialemedia a {
+    text-decoration: none;
+}
+.facebook a,.x a,.instagram a,.linkedin a{
+    height: 30vw;
+}
+.facebook, .x, .instagram,.linkedin{
+    background-color: black;
+    height: 6.26vw;
+    border-radius: 20px;
+    margin-bottom: 1.5%;
+    font-size: 2vw;
+}
+i{
+    color:white;
+    font-size: 2em;
+    margin-left:3%;
+}
+.tekstlogo{
+    color: white;
+    font-size: 2em;
+    margin-left: 10%;
+}
+footer{
+    background-color: rgb(76, 76, 76);
+    height: 15vw;
+}
+.onderkant i{
+    font-size: .8em;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    bottom: 1px;
+    left:1px;
+}
+.onderkant{
+    position: relative;
+    top:60%;
+    font-size: 2vw;
+    margin-left: 1%;
+}
+.onderkant a{
+    text-decoration: none;
+}
+.naarboven{
+    color: white;
+    background-color: black;
+    width: 12%;
+}
+
+/*Media QUERIES*/
+
+@media only screen and (max-width: 936px){
+    .textblokken{
+        width: 100%;
+    }
+    .rijvierkanten{
+        flex-wrap: wrap;
+        justify-content: flex-end;
+    }
+    .vierkantsocialemedia{
+        width: 33.33%;
+        margin-left:1%;
+        justify-content: flex-end;
+    }
+}
+@media screen and (max-width:600px){
+    #header{
+        display: none;
+    }
+    #navbar{
+        height: 60px;     /* Instead of 4vw */
+        font-size: 28px;  /* Make the hamburger big enough */
+        padding: 0 20px;
+        align-items:center;
+    }
+    .navbarlinkerkant,.navbarrechterkant{
+        display:none;
+    }
+    .fa-bars{
+        display: flex !important;
+        justify-content: flex-end;
+        font-size: 90%;
+    }
+    .textblokken{
+        display: flex;
+        flex-direction:column;
+        width: 80%;
+        margin: auto;
+        margin-top: 3%;        
+    }
+    .vierkantsocialemedia{
+        display: none;
+    }
+    .rechthoeksocialemedia{
+        display: flex;
+        justify-content: center;
+        background-color: black;
+    }
+    .logomarginsaub{
+        margin:1.5% 0 1.5% 2%;
+    }
+}
+@media screen and (max-width:480px){
+    body{
+        background-color: white;
+    }
+    p{
+        display:none;
+    }
+    .welcome{
+        display: none;
+    }
+}
