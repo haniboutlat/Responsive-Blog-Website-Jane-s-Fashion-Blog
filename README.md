@@ -30,7 +30,7 @@ This project is a fully responsive fashion blog website built using HTML, CSS, a
 ## How to Run
 
 1. **Clone the repository:**
-  git clone https://github.com/your-username/Responsive-Blog.git
+  git clone https://github.com/haniboutlat/Responsive-Blog-Website-Jane-s-Fashion-Blog.git
 2. Open index.html in your preferred web browser.
 3. Resize the browser window to see responsive behavior.
 
